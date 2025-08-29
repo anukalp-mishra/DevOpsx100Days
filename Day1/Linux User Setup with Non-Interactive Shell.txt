@@ -14,6 +14,7 @@ Last login: Thu Aug 28 18:35:49 2025 from 172.16.238.2
 [banner@stapp03 ~]$ sudo adduser -s /sbin/nologin mariyam
 [sudo] password for banner:
 
+Command to verify the user creation:
 [banner@stapp03 ~]$ sudo grep mariyam /etc/passwd
 
 [sudo] password for banner:
