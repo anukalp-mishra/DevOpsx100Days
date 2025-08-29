@@ -1,0 +1,23 @@
+To accommodate the backup agent tool's specifications, the system admin team at xFusionCorp Industries requires the creation of a user with a non-interactive shell. 
+Here's your task:
+
+Create a user named mariyan with a non-interactive shell on App Server 3.
+
+Note: You can find the infrastructure details by clicking on the Details of all Users and Servers button on the top-right section of the page.
+
+
+Last login: Thu Aug 28 18:28:45 UTC 2025 on pts/0 
+thor@jumphost ~$ ssh banner@172.16.238.12
+
+banner@172.16.238.12's password: 
+Last login: Thu Aug 28 18:35:49 2025 from 172.16.238.2 
+[banner@stapp03 ~]$ sudo adduser -s /sbin/nologin mariyam
+[sudo] password for banner:
+
+[banner@stapp03 ~$ sudo grep mariyam /etc/passwd
+
+[sudo] password for banner:
+
+mariyam: x:1003:1003::/home/mariyam:/sbin/nologin
+
+[banner@stapp03 ~$
