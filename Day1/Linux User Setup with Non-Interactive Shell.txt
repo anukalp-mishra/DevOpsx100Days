@@ -14,10 +14,10 @@ Last login: Thu Aug 28 18:35:49 2025 from 172.16.238.2
 [banner@stapp03 ~]$ sudo adduser -s /sbin/nologin mariyam
 [sudo] password for banner:
 
-[banner@stapp03 ~$ sudo grep mariyam /etc/passwd
+[banner@stapp03 ~]$ sudo grep mariyam /etc/passwd
 
 [sudo] password for banner:
 
 mariyam: x:1003:1003::/home/mariyam:/sbin/nologin
 
-[banner@stapp03 ~$
+[banner@stapp03 ~]$
